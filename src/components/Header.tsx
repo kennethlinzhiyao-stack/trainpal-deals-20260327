@@ -1,23 +1,32 @@
-import { Train } from "lucide-react";
-import headerBg from "@/assets/header-bg.jpg";
+import headerBg from "@/assets/train-16x9.jpg";
 
 export const Header = () => {
   return (
     <header
-      className="relative py-6 px-4 bg-cover bg-center"
+      className="relative py-10 px-4 bg-cover bg-center"
       style={{ backgroundImage: `url(${headerBg})` }}
     >
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative max-w-2xl mx-auto text-center text-white">
-        <div className="flex items-center justify-center gap-2 mb-1">
-          <Train className="w-6 h-6" />
-          <h1 className="text-xl font-bold tracking-tight">
-            train.news
+        <div className="mb-2">
+          <h1 className="text-4xl sm:text-5xl font-black tracking-tight bg-gradient-to-r from-rose-200 via-orange-300 via-amber-300 to-yellow-300 bg-clip-text text-transparent drop-shadow-2xl [text-shadow:_0_2px_10px_rgba(251,191,36,0.3)]">
+            Train.news
           </h1>
+          <div className="mx-auto mt-1 h-0.5 w-32 bg-gradient-to-r from-transparent via-slate-300 to-transparent"></div>
         </div>
-        <p className="text-white/90 text-sm">
-          Your gateway to the best train deals
+        <p className="text-white/90 text-xs font-medium max-w-xs mx-auto leading-relaxed">
+          Exclusive train deals & discounts, curated daily
         </p>
+        <div className="mt-3 flex items-center justify-center gap-4 text-[11px] text-white/80">
+          <div className="flex items-center gap-1">
+            <div className="w-1.5 h-1.5 rounded-full bg-green-400"></div>
+            <span>Live Updates</span>
+          </div>
+          <div className="flex items-center gap-1">
+            <div className="w-1.5 h-1.5 rounded-full bg-blue-400"></div>
+            <span>Verified Deals</span>
+          </div>
+        </div>
       </div>
     </header>
   );

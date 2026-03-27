@@ -1,5 +1,3 @@
-import { Zap, Shield, Globe } from "lucide-react";
-
 // WhatsApp SVG Logo Component
 const WhatsAppLogo = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className}>
@@ -9,70 +7,26 @@ const WhatsAppLogo = ({ className }: { className?: string }) => (
 
 export const WhatsAppSection = () => {
   return (
-    <section className="bg-muted py-6 px-4">
-      <div className="max-w-2xl mx-auto">
-        {/* Product Features */}
-        <h3 className="text-base font-bold text-foreground mb-4 text-center">
-          Why train.news?
-        </h3>
-        <div className="grid grid-cols-3 gap-3 mb-6">
-          <div className="text-center">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-              <Zap className="w-5 h-5 text-primary" />
-            </div>
-            <p className="text-xs font-medium text-foreground">Real-time Rail Deals</p>
+    <section className="bg-muted py-5 px-4">
+      <div className="max-w-4xl mx-auto px-2">
+        {/* WhatsApp Channel Link */}
+        <a
+          href="https://www.whatsapp.com/channel/0029VbCf6bD72WTzJW7KN92b"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex items-center gap-4 bg-[#25D366] text-white rounded-2xl px-5 py-4 hover:scale-[1.01] transition-transform shadow-lg w-full"
+        >
+          <div className="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center">
+            <WhatsAppLogo className="w-7 h-7" />
           </div>
-          <div className="text-center">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-              <Shield className="w-5 h-5 text-primary" />
-            </div>
-            <p className="text-xs font-medium text-foreground">Verified Offers</p>
+          <div className="flex-1">
+            <p className="font-bold text-sm text-white">UK Travel Hacks 🚂 🏨</p>
+            <p className="text-xs text-white/95">6,000+ subscribers</p>
           </div>
-          <div className="text-center">
-            <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center mx-auto mb-2">
-              <Globe className="w-5 h-5 text-primary" />
-            </div>
-            <p className="text-xs font-medium text-foreground">Rail Networks Worldwide</p>
+          <div className="bg-white/25 px-4 py-1.5 rounded-full text-xs font-bold text-white">
+            Subscribe
           </div>
-        </div>
-
-        {/* WhatsApp Links */}
-        <div className="space-y-3">
-          <a
-            href="https://www.whatsapp.com/channel/0029VbCf6bD72WTzJW7KN92b"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-[#25D366] text-white rounded-xl px-4 py-3 hover:bg-[#22c35e] transition-colors shadow-md"
-          >
-            <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-              <WhatsAppLogo className="w-6 h-6" />
-            </div>
-            <div className="flex-1">
-              <p className="font-semibold text-sm">Join our Channel</p>
-              <p className="text-xs text-white/80">Get instant deal alerts</p>
-            </div>
-            <div className="bg-white/20 px-3 py-1 rounded-full text-xs font-medium">
-              Subscribe
-            </div>
-          </a>
-          <a
-            href="https://chat.whatsapp.com/BtA5cCwGifeA1Rs91QBLT2"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 bg-[#25D366] text-white rounded-xl px-4 py-3 hover:bg-[#22c35e] transition-colors shadow-md"
-          >
-            <div className="w-10 h-10 rounded-full bg-white/20 flex items-center justify-center">
-              <WhatsAppLogo className="w-6 h-6" />
-            </div>
-            <div className="flex-1">
-              <p className="font-semibold text-sm">Join our Community</p>
-              <p className="text-xs text-white/80">Connect with fellow travelers</p>
-            </div>
-            <div className="bg-white/20 px-3 py-1 rounded-full text-xs font-medium">
-              Join
-            </div>
-          </a>
-        </div>
+        </a>
       </div>
     </section>
   );

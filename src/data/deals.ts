@@ -1,86 +1,81 @@
 export const dealsData = {
-  eurostar: {
-    brandName: "Eurostar",
-    brandColor: "#0F1B5C",
+  trainpal: {
+    brandName: "Trainpal",
+    brandColor: "#0066CC",
+    brandDescription: "Smart split-ticketing savings",
     deals: [
       {
-        discount: "10% OFF",
-        title: "London to Paris & Amsterdam",
-        url: "https://rail99.com/go/eurostar_10off_deals",
+        discount: "UP TO 70% OFF",
+        title: "Limited: 500 Vouchers",
+        url: "https://rail99.com/go/train_deals",
         badge: "Popular",
         isTopOffer: true,
+        isHighValue: true,
+      }
+    ],
+  },
+  avanti: {
+    brandName: "AVANTI WEST COAST",
+    brandColor: "#E16B2E",
+    brandDescription: "Fast, reliable West Coast rides",
+    deals: [
+      {
+        discount: "UP TO 10% OFF",
+        title: "10% off next booking",
+        url: "https://rail99.com/go/avantiwestcoast_uk",
+        badge: "Advance",
+      }
+    ],
+  },
+  lner: {
+    brandName: "LNER",
+    brandColor: "#DA1A21",
+    brandDescription: "East Coast flagship perks",
+    deals: [
+      {
+        discount: "£10 OFF",
+        title: "£10 Perks credit",
+        url: "https://rail99.com/go/lner_friend",
+        badge: "Credit",
       },
+      {
+        discount: "£5 OFF",
+        title: "£5 credit on join",
+        url: "https://rail99.com/go/lner_uk",
+        badge: "Join",
+      },
+    ],
+  },
+  myvouchercodes: {
+    brandName: "MyVoucherCodes",
+    brandColor: "#00A6FB",
+    brandDescription: "Working train voucher codes",
+    deals: [
+      {
+        discount: "Up to £13 OFF",
+        title: "SplitSave Tickets at trainline",
+        url: "https://rail99.com/go/myvouchercodes_13poundsoff",
+        badge: "SplitSave",
+        isHighValue: true,
+      },
+      {
+        discount: "10% OFF",
+        title: "Get 10% off first European bookings",
+        url: "https://rail99.com/go/myvouchercodes_30off",
+        badge: "European",
+      },
+    ],
+  },
+  gwr: {
+    brandName: "GWR",
+    brandColor: "#0F1B5C",
+    brandDescription: "Great Western group value",
+    deals: [
       {
         discount: "20% OFF",
-        title: "Business Premier Class",
-        url: "https://rail99.com/go/eurostar_business_20off_deals",
-        badge: "Premium",
-      },
-    ],
-  },
-  trainline: {
-    brandName: "Trainline",
-    brandColor: "#00BA75",
-    deals: [
-      {
-        discount: "10€ OFF",
-        title: "Mobile App Booking",
-        url: "https://rail99.com/go/trainline_10eur_app_deals",
-        badge: "App Only",
-      },
-      {
-        discount: "50% OFF",
-        title: "Railcards Discount",
-        url: "https://rail99.com/go/trainline_railcard_deals",
-        badge: "Railcard",
-      },
-    ],
-  },
-  amtrak: {
-    brandName: "Amtrak",
-    brandColor: "#0066B3",
-    deals: [
-      {
-        discount: "15% OFF",
-        title: "USA Rail Pass 2026",
-        url: "https://rail99.com/go/amtrak_usa_rail_pass_deals",
-        badge: "Season Pass",
-      },
-    ],
-  },
-  sncf: {
-    brandName: "SNCF Connect",
-    brandColor: "#DB2813",
-    deals: [
-      {
-        discount: "UP TO 30% OFF",
-        title: "TGV Inoui Routes",
-        url: "https://rail99.com/go/sncf_tgv_deals",
-        badge: "TGV",
-      },
-      {
-        discount: "25% OFF",
-        title: "Early Booking Special",
-        url: "https://rail99.com/go/sncf_early_bird_deals",
-        badge: "France",
-      },
-    ],
-  },
-  deutschebahn: {
-    brandName: "Deutsche Bahn",
-    brandColor: "#F01414",
-    deals: [
-      {
-        discount: "20% OFF",
-        title: "Intercity Express (ICE)",
-        url: "https://rail99.com/go/db_ice_20off_deals",
-        badge: "ICE Trains",
-      },
-      {
-        discount: "Sparangebote",
-        title: "Mega Train Deals",
-        url: "https://rail99.com/go/db_sparangebote_deals",
-        badge: "Germany",
+        title: "Bridgerton Tour of Bath",
+        url: "https://rail99.com/go/gwr_uk",
+        badge: "Groups",
       },
     ],
   },
