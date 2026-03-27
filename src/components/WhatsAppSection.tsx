@@ -8,7 +8,7 @@ const WhatsAppLogo = ({ className }: { className?: string }) => (
 export const WhatsAppSection = () => {
   return (
     <section className="bg-muted py-5 px-4">
-      <div className="max-w-4xl mx-auto px-2">
+      <div className="max-w-md mx-auto px-2">
         {/* WhatsApp Channel Link */}
         <a
           href="https://www.whatsapp.com/channel/0029VbCf6bD72WTzJW7KN92b"
@@ -20,7 +20,7 @@ export const WhatsAppSection = () => {
             <WhatsAppLogo className="w-7 h-7" />
           </div>
           <div className="flex-1">
-            <p className="font-bold text-sm text-white">UK Travel Hacks 🚂 🏨</p>
+            <p className="font-bold text-sm text-white">UK Travel Hacks</p>
             <p className="text-xs text-white/95">6,000+ subscribers</p>
           </div>
           <div className="bg-white/25 px-4 py-1.5 rounded-full text-xs font-bold text-white">

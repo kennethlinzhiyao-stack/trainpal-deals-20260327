@@ -66,7 +66,7 @@ export const DealCard = ({
       )}>
         {isTopOffer && (
           <div className="absolute right-2 top-2 z-20 animate-pulse">
-            <span className="inline-flex items-center rounded-full bg-[#FF6B35] px-2 py-0.5 text-[9px] font-semibold text-white shadow-lg shadow-orange-500/30">
+            <span className="inline-flex items-center rounded-full bg-red-600 px-2 py-0.5 text-[9px] font-semibold text-white shadow-lg shadow-red-500/30">
               🔥 Hot
             </span>
           </div>
@@ -94,14 +94,14 @@ export const DealCard = ({
             </div>
           </div>
 
-          <div className="flex-1 flex items-center px-3 sm:px-4 py-4 relative min-w-0">
+          <div className="flex-1 flex items-center px-3 sm:px-4 py-5 relative min-w-0">
             <div className="flex-1 min-w-0 pr-3">
               <div className="flex items-center gap-2 mb-1.5">
                 <span className="text-[9px] px-2 py-0.5 rounded-full font-semibold text-slate-600 bg-white/70 border border-slate-200 backdrop-blur-sm whitespace-nowrap">
                   {badge}
                 </span>
               </div>
-              <h3 className="text-[11px] font-medium text-[#4A5568] truncate transition-all duration-300 group-hover:text-[#FF6B35] leading-tight">
+              <h3 className="text-[12px] font-semibold text-[#4A5568] truncate transition-all duration-300 group-hover:text-[#FF6B35] leading-tight">
                 {title}
               </h3>
             </div>
@@ -112,11 +112,12 @@ export const DealCard = ({
                 rel="noopener noreferrer"
                 onClick={() => trackClick(title)}
                 className={cn(
-                  "claim-button w-16 h-8 flex items-center justify-center rounded-full text-[11px] font-extrabold transition-all duration-300 ease-out",
+                  "claim-button h-9 flex items-center justify-center rounded-full text-[12px] font-extrabold transition-all duration-300 ease-out",
                   "bg-gradient-to-r from-[#FF6B35] to-orange-500 text-white",
                   "hover:scale-105 active:scale-95 hover:shadow-[0_10px_20px_rgba(255,107,53,0.25)]",
                   "shadow-sm"
                 )}
+                style={{ width: '6.75rem' }}
               >
                 <span className="relative z-10 flex items-center gap-1">
                   {buttonText}

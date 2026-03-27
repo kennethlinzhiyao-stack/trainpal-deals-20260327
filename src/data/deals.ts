@@ -6,7 +6,7 @@ export const dealsData = {
     deals: [
       {
         discount: "UP TO 70% OFF",
-        title: "Limited: 500 Vouchers",
+        title: "Limited: 500 Only",
         url: "https://rail99.com/go/train_deals",
         badge: "Popular",
         isTopOffer: true,
@@ -21,7 +21,7 @@ export const dealsData = {
     deals: [
       {
         discount: "UP TO 10% OFF",
-        title: "10% off next booking",
+        title: "Next Booking",
         url: "https://rail99.com/go/avantiwestcoast_uk",
         badge: "Advance",
       }
@@ -34,13 +34,13 @@ export const dealsData = {
     deals: [
       {
         discount: "£10 OFF",
-        title: "£10 Perks credit",
+        title: "£10 Credit",
         url: "https://rail99.com/go/lner_friend",
         badge: "Credit",
       },
       {
         discount: "£5 OFF",
-        title: "£5 credit on join",
+        title: "Join Bonus",
         url: "https://rail99.com/go/lner_uk",
         badge: "Join",
       },
@@ -53,14 +53,14 @@ export const dealsData = {
     deals: [
       {
         discount: "Up to £13 OFF",
-        title: "SplitSave Tickets at trainline",
+        title: "SplitSave Tickets",
         url: "https://rail99.com/go/myvouchercodes_13poundsoff",
         badge: "SplitSave",
         isHighValue: true,
       },
       {
         discount: "10% OFF",
-        title: "Get 10% off first European bookings",
+        title: "First Booking",
         url: "https://rail99.com/go/myvouchercodes_30off",
         badge: "European",
       },
