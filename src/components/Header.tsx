@@ -1,10 +1,13 @@
-import headerBg from "@/assets/train-16x9.jpg";
+import headerBg from "@/assets/train-view2.jpg";
 
 export const Header = () => {
   return (
     <header
-      className="relative py-10 px-4 bg-cover bg-center"
-      style={{ backgroundImage: `url(${headerBg})` }}
+      className="relative py-10 px-4 bg-cover"
+      style={{
+        backgroundImage: `url(${headerBg})`,
+        backgroundPosition: 'center 66.67%'
+      }}
     >
       <div className="absolute inset-0 bg-black/40" />
       <div className="relative max-w-2xl mx-auto text-center text-white">
