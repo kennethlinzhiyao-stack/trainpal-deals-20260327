@@ -20,12 +20,12 @@ export const Header = () => {
         <p className="text-white/90 text-xs font-medium max-w-xs mx-auto leading-relaxed">
           Exclusive train deals & discounts, curated daily
         </p>
-        <div className="mt-3 flex items-center justify-center gap-4 text-[11px] text-white/80">
-          <div className="flex items-center gap-1">
+        <div className="mt-3 flex items-center justify-center gap-4 text-sm text-white font-semibold">
+          <div className="flex items-center gap-1.5">
             <div className="w-1.5 h-1.5 rounded-full bg-green-400"></div>
             <span>Live Updates</span>
           </div>
-          <div className="flex items-center gap-1">
+          <div className="flex items-center gap-1.5">
             <div className="w-1.5 h-1.5 rounded-full bg-blue-400"></div>
             <span>Verified Deals</span>
           </div>

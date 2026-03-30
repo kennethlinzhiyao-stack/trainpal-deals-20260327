@@ -84,11 +84,11 @@ export const DealCard = ({
 
             <div className="flex flex-col items-center justify-center leading-none">
               {!isSingleLine && (
-                <span className="text-[8px] font-extrabold uppercase text-[#FF6B35]/90 mb-0.5 transition-all duration-500 whitespace-nowrap">
+                <span className="text-[7px] font-extrabold uppercase text-[#FF6B35]/90 mb-0.5 transition-all duration-500 whitespace-nowrap">
                   {line1}
                 </span>
               )}
-              <span className="text-base sm:text-lg font-extrabold leading-none text-center text-[#FF6B35] whitespace-nowrap transition-all duration-500 group-hover:scale-110">
+              <span className="text-sm sm:text-base font-extrabold leading-none text-center text-[#FF6B35] whitespace-nowrap transition-all duration-500 group-hover:scale-105">
                 {isSingleLine ? line1 : line2}
               </span>
             </div>
@@ -96,7 +96,7 @@ export const DealCard = ({
 
           <div className="flex-1 flex items-center px-3 sm:px-4 py-5 relative min-w-0">
             <div className="flex-1 min-w-0 pr-3">
-              <div className="flex items-center gap-2 mb-1.5">
+              <div className="flex items-center gap-2 mb-3">
                 <span className="text-[9px] px-2 py-0.5 rounded-full font-semibold text-slate-600 bg-white/70 border border-slate-200 backdrop-blur-sm whitespace-nowrap">
                   {badge}
                 </span>
