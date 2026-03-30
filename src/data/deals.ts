@@ -6,7 +6,7 @@ export const dealsData = {
     deals: [
       {
         discount: "UP TO 70% OFF",
-        title: "Limited: 500 Only",
+        title: "500 Daily Release",
         url: "https://rail99.com/go/train_deals",
         badge: "Popular",
         isTopOffer: true,

@@ -1,4 +1,4 @@
-import headerBg from "@/assets/train-view2.jpg";
+import headerBg from "@/assets/海上列车.jpg";
 
 export const Header = () => {
   return (
