@@ -1,6 +1,6 @@
 export const dealsData = {
   trainpal: {
-    brandName: "Trainpal",
+    brandName: "TrainPal",
     brandColor: "#0066CC",
     brandDescription: "Smart split-ticketing savings",
     deals: [
