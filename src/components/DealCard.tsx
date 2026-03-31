@@ -74,7 +74,7 @@ export const DealCard = ({
 
         <div className="flex items-stretch">
           <div className={cn(
-            "flex flex-col items-center justify-center px-2 py-4 w-[68px] sm:w-[80px] relative overflow-hidden transition-all duration-500 flex-shrink-0",
+            "flex flex-col items-center justify-center px-2 py-4 w-[105px] sm:w-[115px] relative overflow-hidden transition-all duration-500 flex-shrink-0",
             "relative",
             isTopOffer
               ? "bg-gradient-to-br from-orange-50/40 to-orange-50/30 group-hover:from-orange-50/60 group-hover:to-orange-50/50"
@@ -84,24 +84,24 @@ export const DealCard = ({
 
             <div className="flex flex-col items-center justify-center leading-none">
               {!isSingleLine && (
-                <span className="text-[7px] font-extrabold uppercase text-[#FF6B35]/90 mb-0.5 transition-all duration-500 whitespace-nowrap">
+                <span className="text-[10px] font-extrabold uppercase text-[#FF6B35]/90 mb-1 transition-all duration-500 whitespace-nowrap">
                   {line1}
                 </span>
               )}
-              <span className="text-sm sm:text-base font-extrabold leading-none text-center text-[#FF6B35] whitespace-nowrap transition-all duration-500 group-hover:scale-105">
+              <span className="text-lg sm:text-xl font-extrabold leading-none text-center text-[#FF6B35] whitespace-nowrap transition-all duration-500 group-hover:scale-110">
                 {isSingleLine ? line1 : line2}
               </span>
             </div>
           </div>
 
-          <div className="flex-1 flex items-center px-3 sm:px-4 py-5 relative min-w-0">
-            <div className="flex-1 min-w-0 pr-3">
-              <div className="flex items-center gap-2 mb-3">
-                <span className="text-[9px] px-2 py-0.5 rounded-full font-semibold text-slate-600 bg-white/70 border border-slate-200 backdrop-blur-sm whitespace-nowrap">
+          <div className="flex-1 flex items-center pl-3 sm:pl-4 pr-2 sm:pr-2 py-5 relative min-w-0">
+            <div className="flex-1 min-w-0 pr-2 sm:pr-2">
+              <div className="flex items-center gap-2 mb-1">
+                <span className="text-[10px] px-2 py-0.5 rounded-full font-semibold text-slate-600 bg-white/70 border border-slate-200 backdrop-blur-sm whitespace-nowrap">
                   {badge}
                 </span>
               </div>
-              <h3 className="text-[12px] font-semibold text-[#4A5568] truncate transition-all duration-300 group-hover:text-[#FF6B35] leading-tight">
+              <h3 className="text-[13px] font-semibold text-[#4A5568] truncate transition-all duration-300 group-hover:text-[#FF6B35] leading-tight">
                 {title}
               </h3>
             </div>

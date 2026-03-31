@@ -73,7 +73,7 @@ export const dealsData = {
     deals: [
       {
         discount: "20% OFF",
-        title: "Bridgerton Tour of Bath",
+        title: "Bridgerton Tour",
         url: "https://rail99.com/go/gwr_uk",
         badge: "Groups",
       },
